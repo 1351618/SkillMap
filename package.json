@@ -1,0 +1,13 @@
+{
+  "name": "skillmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-css": "sass ./styles/main.scss ./css/main.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
