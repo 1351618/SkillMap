@@ -9,15 +9,21 @@
 </head>
 <body>
     <main class="main">
-        <div class="main__content">контент</div>
+        <div class="main__content">
+            <video class="main__content_video-intro" src="image/animation/animation.MP4" autoplay muted loop></video>
+            <div class="main__map" id="main__map">
+                <script src="js/map.js"></script>
+            </div>
+        </div>
 
         <!-- элементы на главном окне (профиль настройки и т.п.) -->
         <div class="main__profil">
             <button class="main__profil-button" id="open_profile">
                 <img src="image/icon/Account-Avatar-Profile-none.png" alt="">
+                <figcaption>ВОЙТИ</figcaption>
             </button>
         </div>
-        <div class="main__imput">поле ввода</div>
+        <div class="main__navigation-panel">панель навигации</div>
 
 
         <!-- окна элементов главного окна (содержимое и т.п.) -->

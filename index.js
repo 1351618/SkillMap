@@ -17,3 +17,22 @@ window.addEventListener("keydown", (e) => {
 })
 
 // при клики на внешнюю обл окно профиля закрывается
+
+
+// после загрузки cкрывает заставку и отображает карту навыков
+document.addEventListener('DOMContentLoaded', function() {
+    let content = document.querySelector('.main__content');
+    let video = document.querySelector('.main__content_video-intro');
+    let map = document.querySelector('.main__map');
+    let navigation_panel = document.querySelector('.main__navigation-panel');
+
+    content.addEventListener('click', function() {
+        video.style.display = 'none';
+        map.style.display = 'block';
+        navigation_panel.style.display = 'block';
+    });
+});
+
+
+// стиль для всплывающих подсказок
+
