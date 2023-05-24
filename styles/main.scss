@@ -132,3 +132,19 @@ body {
     min-width: 60px;
     min-height: 30px;
 }
+
+.main__desk-elements {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0.1vw;
+    margin: auto;
+    height: 34px;
+    width: 50px;
+    background-color: #3a3a3a;
+    border: 2px solid #838585;
+    border-radius: 8px;
+    z-index: 10;
+    display: none;
+}
+
