@@ -2,11 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Main from './ts/main';
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Main />
+        <img src={logo} className="App-logo2" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
