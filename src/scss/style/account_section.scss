@@ -1,0 +1,40 @@
+@import 'style_themes.scss';
+
+.account__section {
+    position: fixed;
+    top: 0.2vw;
+    left: 0.2vw;
+    height: 100px;
+    width: 100px;
+    background-color: $background_style;
+    border: $border_styles;
+    border-radius: 8px;
+    z-index: 5;
+    
+}
+
+.account__section-button {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.account__section-button img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.account__section-button figcaption {
+    position: inherit;
+    top: -2px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    color: $text_color;
+    font-weight: 900;
+}

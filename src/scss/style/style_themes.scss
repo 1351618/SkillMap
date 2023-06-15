@@ -1,0 +1,28 @@
+// минимализи
+    // темная тема 
+    // светлая тема
+// игровая
+    // темная тема 
+    // светлая тема
+
+// $background_style: #f7f7f7;
+// $border_styles: 2px solid #989898;
+// $text_color: #000000;
+
+$background_style: #3a3a3a;
+$border_styles: 2px solid #838585;
+$text_color: #c9c9c9;
+
+
+
+
+
+.StyleThemes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
