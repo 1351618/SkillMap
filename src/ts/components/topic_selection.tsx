@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { themes } from './style_themes';
-export let myVariable = '';
+
+
+
+
+
 
 function TopicSelection() {
   const [theme, setTheme] = useState(themes.minimalism.dark);
@@ -10,17 +14,19 @@ function TopicSelection() {
     if (num === 1) {
       setTheme(themes.minimalism.dark);
       setThemeNumber(1);
-      myVariable = 'Hello';
+      
     } else {
       setTheme(themes.minimalism.light);
       setThemeNumber(2);
-      myVariable = ' World!';
       
     }
   }
 
   return (
-    <div className='topic_selection' style={{ border: theme.borderStyles }}>
+    <div className='topic_selection' style={{ 
+                border: theme.borderStyles, 
+                backgroundColor: theme.backgroundStyle,
+                color:theme.textColor }}>
       <span>Минимализм</span>
       <label className='minimalism_dark_label' htmlFor='checkbox1'>
         dark

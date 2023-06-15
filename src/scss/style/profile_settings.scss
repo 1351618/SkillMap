@@ -1,6 +1,7 @@
+@import 'style_themes.scss';
+
 .ProfileSettings {
     height: auto;
     width: auto;
-    
-    background-color: #1ee0e0;
+    color: $text_color;
 }

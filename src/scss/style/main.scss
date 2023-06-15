@@ -33,7 +33,7 @@
 .main__modal-windovs {
   height: 100%;
   width: 100%;
-  background-color: #00ffff45;
+  background-color: #00000099;
   position: absolute;
   z-index: 10;
 
@@ -46,7 +46,8 @@
     transform: translate(-50%, -50%);
     height: auto;
     width: auto;
-    background-color: #838585;
+    background-color: $background_style;
+    border: $border_styles;
     border-radius: 10px;
     padding: 2vw;
 }
@@ -57,7 +58,7 @@
   padding: 1px;
   border-radius: 5px;
   border: 2px solid red;
-  background-color: rgba(0, 206, 209, 0);
+  background-color: #00ced100;
   position: absolute;
   top: 5px;
   right: 7px;

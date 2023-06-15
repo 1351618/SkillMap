@@ -5,15 +5,16 @@ export const themes = {
   minimalism: {
         // темная тема 
     dark: {
-      backgroundStyle: "#f7f7f7",
+      backgroundStyle: "#3a3a3a",
+      
       borderStyles: "2px solid #989898",
       textColor: "#c9c9c9"
     },
     // светлая тема
     light: {
-      backgroundStyle: "#3a3a3a",
+      backgroundStyle: "#f7f7f7",
       borderStyles: "2px solid #838585",
-      textColor: "#c9c9c9"
+      textColor: "#3a3a3a"
     },
   },
   gaming: {

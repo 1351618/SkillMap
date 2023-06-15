@@ -38,7 +38,7 @@
 .main__modal-windovs {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 255, 255, 0.2705882353);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   z-index: 10;
 }
@@ -50,7 +50,8 @@
   transform: translate(-50%, -50%);
   height: auto;
   width: auto;
-  background-color: #838585;
+  background-color: #3a3a3a;
+  border: 2px solid #838585;
   border-radius: 10px;
   padding: 2vw;
 }
@@ -166,16 +167,58 @@
   z-index: 20;
 }
 
-.Authorization {
+.StyleThemes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 100px;
   width: 100px;
-  background-color: #24e01e;
+  background-color: aqua;
+}
+
+.Authorization {
+  height: 300px;
+  width: 400px;
+  background-color: #3a3a3a;
+  border: 2px solid #838585;
+  border-radius: 8px;
+  color: #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Authorization input {
+  height: 30px;
+  width: 250px;
+  padding: 0px;
+  border-radius: 8px;
+}
+
+.Authorization button {
+  height: 30px;
+  width: 250px;
+  position: revert;
+  background-color: #72b762;
+  border: none;
+  margin-top: 10px;
+}
+
+.StyleThemes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
 }
 
 .ProfileSettings {
   height: auto;
   width: auto;
-  background-color: #1ee0e0;
+  color: #c9c9c9;
 }
 
 .topic_selection {
